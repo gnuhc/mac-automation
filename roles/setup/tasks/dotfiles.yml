@@ -1,0 +1,28 @@
+---
+# getting my dotfile configuration
+
+- name: setting up my dotfiles
+  git:
+    repo: https://github.com/gnuhc/dotfiles.git
+    dest: /tmp/dotfiles/
+
+- name: ensure that neovim configuration directory exists
+  file:
+    path: "{{general.local_home}}/.config/nvim"
+    state: directory
+    
+- name: verify $HOME/.config/nvim dir is there    
+  stat:
+    path: "{{general.local_home}}/.config/nvim"
+  register: configdir
+
+- name: neovim configuration 
+  copy:
+    src: /tmp/dotfiles/init.vim
+    dest: "{{general.local_home}}/.config/nvim"
+  when: configdir.stat.exists
+
+- name: clean up /tmp/dotfiles
+  file:
+    path: /tmp/dotfiles
+    state: absent
