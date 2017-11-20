@@ -7,7 +7,6 @@ general:
 applications:
   - autojump
   - openssl
-# - brew-cask
   - git
   - tree
   - httpie
@@ -20,16 +19,16 @@ applications:
 
 # homebrew cask applications
 cask_applications:
-#  - charles
-#  - google-chrome
-#  - firefox
-#  - microsoft-teams
-#  - sublime-text
-#  - atom
-#  - android-studio
+  - charles
+  - google-chrome
+  - firefox
+  - microsoft-teams
+  - sublime-text
+  - atom
+  - android-studio
   - licecap
   - iterm2
-#  - 1password
+  - 1password
   - postman
 #  - virtualbox
 
