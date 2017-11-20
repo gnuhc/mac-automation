@@ -2,7 +2,7 @@
 
 To setup run the following command :
 ```
-curl -s https://raw.githubusercontent.com/gnuhc/setupmac/master/start.sh | /bin/bash
+curl -s https://raw.githubusercontent.com/gnuhc/mac-automation/master/start.sh | /bin/bash
 ```
 
 The start.sh script installs `pip` and then `ansible` with pip.
