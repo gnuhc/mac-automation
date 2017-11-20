@@ -8,29 +8,29 @@ applications:
   - autojump
   - openssl
 # - brew-cask
-#  - git
-#  - tree
-#  - httpie
-#  - curl
-#  - wget
-#  - vim
-#  - neovim
-#  - ag 
-#  - ctags
+  - git
+  - tree
+  - httpie
+  - curl
+  - wget
+  - vim
+  - neovim
+  - ag 
+  - ctags
 
 # homebrew cask applications
 cask_applications:
-  - charles
+#  - charles
 #  - google-chrome
 #  - firefox
 #  - microsoft-teams
 #  - sublime-text
-  - atom
+#  - atom
 #  - android-studio
-#  - licecap
-#  - iterm2
+  - licecap
+  - iterm2
 #  - 1password
-#  - postman
+  - postman
 #  - virtualbox
 
 #downloads:
