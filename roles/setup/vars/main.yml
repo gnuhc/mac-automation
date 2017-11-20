@@ -6,33 +6,34 @@ general:
 # homebrew applications
 applications:
   - autojump
-  - brew-cask
-  - git
-  - tree
-  - httpie
-  - curl
-  - wget
-  - vim
-  - neovim
-  - ag 
-  - ctags
+  - openssl
+# - brew-cask
+#  - git
+#  - tree
+#  - httpie
+#  - curl
+#  - wget
+#  - vim
+#  - neovim
+#  - ag 
+#  - ctags
 
 # homebrew cask applications
 cask_applications:
   - charles
-  - google-chrome
-  - firefox
-  - microsoft-teams
-  - sublime-text
+#  - google-chrome
+#  - firefox
+#  - microsoft-teams
+#  - sublime-text
   - atom
-  - android-studio
-  - licecap
-  - iterm2
-  - 1password
-  - postman
-  - virtualbox
+#  - android-studio
+#  - licecap
+#  - iterm2
+#  - 1password
+#  - postman
+#  - virtualbox
 
-downloads:
+#downloads:
 #   zwift:
 #     name: Zwift
 #     url: http://cdn.zwift.com/app/ZwiftOSX.dmg
